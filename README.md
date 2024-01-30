@@ -10,5 +10,5 @@ Course URL: https://www.udemy.com/course/react-the-complete-guide-incl-redux/
 1. [Section 2: JavaScript Refresher](/Section%202/README.md)  
 This section was all about general JavaScript concepts.
 
-2. [Section 3: React Essentials](/Section%203/README.md)  
+2. [Section 3: React Essentials - Basics](/Section%203/README.md)  
 This section covers the main React concepts like Components, JSX, Props, State & More.
