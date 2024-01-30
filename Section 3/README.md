@@ -68,3 +68,44 @@ function App() {
 
 export default App;
 ```
+
+## Exercise 3
+
+The third exercisse was about working with Props. I have added the map function which was not required but it makes the code better.
+
+#### Solution
+```
+function CourseGoal({title, description}) {
+  return (
+    <li>
+      <h2>{title}</h2>
+      <p>{description}</p>
+    </li>
+  );
+}
+
+function App() {
+  return (
+    <div id="app" data-testid="app">
+      <h1>Time to Practice</h1>
+      <p>One course, many goals! 🎯</p>
+      <ul>
+        {
+          [
+            {
+              title: "Title 1",
+              description: "Description 1",
+            },
+            {
+              title: "Title 2",
+              description: "Description 2",
+            }
+          ].map(goal => (<CourseGoal {...goal} />))
+        }
+      </ul>
+    </div>
+  );
+}
+
+export default App;
+```
