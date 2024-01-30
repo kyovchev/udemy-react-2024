@@ -1,5 +1,14 @@
-# udemy-react-2024
+# Exercises from the course React - The Complete Guide 2024 (incl. React Router & Redux)
 
-Exercises from the course "React - The Complete Guide 2024 (incl. React Router &amp; Redux)" in udemy
+
+This repo contains a summary of my solutions from all of the exercises from the course "React - The Complete Guide 2024 (incl. React Router &amp; Redux)" in udemy
 
 Course URL: https://www.udemy.com/course/react-the-complete-guide-incl-redux/
+
+## Table of Contents
+
+1. [Section 2: JavaScript Refresher](/Section%202/README.md)  
+This section was all about general JavaScript concepts.
+
+2. [Section 3: React Essentials](/Section%203/README.md)  
+This section covers the main React concepts like Components, JSX, Props, State & More.
