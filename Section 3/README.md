@@ -8,7 +8,7 @@ The first task was about creating and using a Component. The name of the new com
 
 ### Solution
 
-```
+```jsx
 import React from 'react';
 
 function MainGoal() {
@@ -36,7 +36,7 @@ The second task was about otputting dynamic content.
 
 ### Solution
 
-```
+```jsx
 import React from 'react';
 
 const userData = {
@@ -73,8 +73,8 @@ export default App;
 
 The third exercisse was about working with Props. I have added the map function which was not required but it makes the code better.
 
-#### Solution
-```
+### Solution
+```jsx
 function CourseGoal({title, description}) {
   return (
     <li>
@@ -108,4 +108,35 @@ function App() {
 }
 
 export default App;
+```
+
+## Exercise 4
+
+Exercise about Component Composition. The goal of this exercise was to create a reusable Card component that takes a name prop as an input and, in addition, can be wrapped around any JSX code.
+
+The final Card component, had to be usable like this:
+```jsx
+<Card name="Maria Miles">
+  <p>
+    Maria is a professor of Computer Science at the University of Illinois.
+  </p>
+  <p>
+    <a href="mailto:blake@example.com">Email Maria</a>
+  </p>
+</Card>
+```
+
+### Solution
+
+The file Card.js contains:
+
+```jsx
+export default function Card({ name, children }) {
+  return (
+    <div class="card">
+      <h1>{name}</h1>
+      {children}
+    </div>
+  );
+}
 ```
