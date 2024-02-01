@@ -71,7 +71,7 @@ export default App;
 
 ## Exercise 3
 
-The third exercisse was about working with Props. I have added the map function which was not required but it makes the code better.
+The third exercise was about working with Props. I have added the map function which was not required but it makes the code better.
 
 ### Solution
 ```jsx
@@ -139,4 +139,46 @@ export default function Card({ name, children }) {
     </div>
   );
 }
+```
+
+## Exercise 5
+
+It was about reacting to events. The goal was to update the data stored in the already existing user object once the "Login" button in the App component is pressed.
+
+### Solution
+
+```jsx
+const user = {
+  email: '',
+  password: '',
+  loggedIn: false,
+};
+
+function App() {
+  function handleLogin() {
+    user.email = "a@a.bg";
+    user.password = "123";
+    user.loggedIn = true;
+  }
+  return (
+    <div id="app">
+      <h1>User Login</h1>
+      <p>
+        <label>Email</label>
+        <input type="email" />
+      </p>
+
+      <p>
+        <label>Password</label>
+        <input type="password" />
+      </p>
+
+      <p id="actions">
+        <button onClick={handleLogin}>Login</button>
+      </p>
+    </div>
+  );
+}
+
+export default App;
 ```
