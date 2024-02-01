@@ -12,5 +12,5 @@ This section was all about general JavaScript concepts.
 2. [Section 3: React Essentials - Basics](/Section%203/README.md)  
 This section covers the main React concepts like Components, JSX, Props, State & More.
 
-3. [Section 4: Deep Dive](/Section%204/README.md)  
+3. [Section 4: React Essentials - Deep Dive](/Section%204/README.md)  
 This section covers Fragments, Forwarding Props, Flexible Components, Two-Way-Binding & More.

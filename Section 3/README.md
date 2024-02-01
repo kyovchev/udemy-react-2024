@@ -252,7 +252,7 @@ export default function App() {
           </div>
         )}
         {!showWarning && <button onClick={() => setShowWarning(true)}>Delete</button>}
-      </div>    
+      </div>
     );
 }
 ```
